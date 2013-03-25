@@ -1,0 +1,9 @@
+autoupdate
+ = jar will remain, but dependencies moved to maven
+
+windows service
+ = will be changed to maven appassembly plugin
+
+deployment scripts
+ = will be replaced by tomcat / jetty plugin for the generated war
+ = plugin deploy/undeploy can be handled by copying plugins in maven
